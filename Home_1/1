@@ -1,0 +1,20 @@
+
+import java.util.Scanner;
+
+public class DZ_1 {
+    public static void main(String[] args){
+
+        Scanner scanner = new Scanner(System.in);
+        int summa = 0;
+        int x = 0;
+        System.out.println("Введите числа: ");
+        do {
+            x = scanner.nextInt();
+            summa +=x;
+
+        }while(x!=0);
+        System.out.println(summa);
+
+
+    }
+}
